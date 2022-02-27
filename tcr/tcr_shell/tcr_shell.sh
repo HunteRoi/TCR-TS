@@ -98,7 +98,7 @@ tcr_check_inotifywait_availability() {
 # ------------------------------------------------------------------------------
 
 tcr_detect_kata_language() {
-  LANGUAGE="csharp"
+  LANGUAGE="typescript"
   LANGUAGE_VARIABLES_FILE="${SCRIPT_DIR}/languages/${LANGUAGE}"
 
   if [ -f "${LANGUAGE_VARIABLES_FILE}" ]; then
